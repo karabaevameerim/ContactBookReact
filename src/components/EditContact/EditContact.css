@@ -1,0 +1,38 @@
+.main-modal{
+    width: 350px;
+    position: fixed;
+    top: 260px;
+    left: 990px;
+   border: none;
+   background-color: azure;
+}
+.close{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    
+}
+.inner-modal{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+   
+    margin: 20px auto;
+    text-align: center;
+}
+.btn2{
+    width: 20%;
+    height: 30px;
+    padding: 0;
+    border: none;
+    background-color: azure;
+}
+.inner-modal input{
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 128, 0, 0.545);
+}
+.btn{
+    width: 50%;
+    border: none;
+}

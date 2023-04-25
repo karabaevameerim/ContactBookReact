@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+.container{
+    width: 500px;
+    border: 2px solid purple;
+    display: flex;
+    padding: 50px 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.addInput{
+    width: 60% ;
+    display: flex;
+    flex-direction: column;  
+}
+.addInput :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.addInput h2{
+    text-align: center;
+    font-family: 'Cardo', serif;
+    color:orangered
+}
+
+.inp{
+    margin-bottom: 10px;
+}
+.btn{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid black;
+}

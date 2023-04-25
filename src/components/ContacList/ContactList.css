@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.headMiddle{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+
+}
+.headMiddle h2{
+    margin-top: 18px;
+}
+table{
+   margin: 20px;
+}
+tr button {
+    width: 20%;
+border: 1px solid black;
+border-radius: 12px;
+background-color:  lightgreen;
+}
+tr button:hover{
+cursor: pointer;
+background-color: orangered;
+}
+.btn1{
+   margin-right: 5px;
+}
